@@ -66,7 +66,7 @@ uma delas.</li>
 
 <!-- Início da seção "Finalização" -->
 <div align="center">
-  <p>Feito com :heart: por <b>Niwan Bernardo</b>.</p>
+  <p>Feito com :heart: por <b>Niwan Bernardo</b>, <b>Victor Hugo</b> e <b>Deyvid Fernandes</b>.</p>
   <p>Deixe uma :star: no projeto.</p>
 </div>
 <!-- Fim da seção "Finalização" -->
