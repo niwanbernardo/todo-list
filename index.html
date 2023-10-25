@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link para a fonte do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <!-- Link para o arquivo CSS -->
+  <link rel="stylesheet" href="../todo-list/css/style.css">
+
+  <!-- Script JavaScript assíncrono para melhorar o desempenho -->
+  <script src="../todo-list/js/script.js" defer></script>
+  
+  <title>Página de Login</title>
+</head>
+
+<body>
+  <!-- Logo do site -->
+  <img src="../todo-list/assets/logo.png" alt="Logotipo" class="logo">
+  
+  <div class="container">
+    <!-- Formulário de login -->
+    <div class="form" id="loginForm">
+      <h2>Faça <strong>login</strong><br> ou <strong>cadastre-se</strong></h2>
+      <form action="#" method="post">
+        <!-- Entradas para e-mail e senha -->
+        <input type="email" name="email" id="email" placeholder="E-mail" required>
+        <input type="password" name="password" id="password" placeholder="Senha" required>
+        <!-- Botão de login -->
+        <button class="btn" type="submit">Entrar</button>
+      </form>
+      <!-- Link para a página de registro -->
+      <div class="form-switch">
+        <p>Não possui conta?</p>
+        <p><a href="#" id="switchToRegister">Clique aqui</a> para se cadastrar</p>
+      </div>
+    </div>
+
+    <!-- Formulário de registro -->
+    <div class="form register" id="registerForm">
+      <h2><strong>Preencha</strong> suas informações abaixo</h2>
+      <form action="register.php" method="post">
+        <!-- Entradas para nome, e-mail e senha no registro -->
+        <input type="text" name="nome" id="nome" placeholder="Nome" required>
+        <input type="email" name="newEmail" id="newEmail" placeholder="E-mail" required>
+        <input type="password" name="newPassword" id="newPassword" placeholder="Senha" required>
+        <!-- Botão de registro -->
+        <button class="btn" type="submit" id="registerBtn">Cadastrar</button>
+      </form>
+      <!-- Link para a página de login -->
+      <div class="form-switch">
+        <p>Já possui conta?</p>
+        <p><a href="#" id="switchToLogin">Clique aqui</a> para entrar</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
