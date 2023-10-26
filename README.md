@@ -6,7 +6,7 @@
 
 <!-- Início da seção de demonstração -->
 <h2>🎥 Demonstração: </h2>
-<a href="https://niwanbernardo.github.io/todo-list/"><img src="https://i.postimg.cc/XqtQ3ZK3/login-todo.png" width="500" height="500" alt="Imagem do login" ></a>
+<a href="https://niwanbernardo.github.io/todo-list/"><img src="https://i.postimg.cc/XqtQ3ZK3/login-todo.png" width="400" height="400" alt="Imagem do login" ></a>
 <a href="https://niwanbernardo.github.io/todo-list/"><img src="https://i.postimg.cc/yxzYgjyb/todo-list.png" width="500" height="400" alt="Imagem das tarefas" ></a>
 <!-- Fim da seção de demonstração -->
 
